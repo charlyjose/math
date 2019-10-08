@@ -1,7 +1,9 @@
 package mymath
 
 // GCD returns the highest Common Factor of a number
-func GCD(a, b []int) int {
+func GCD(n1, n2 int) int {
+	a := Factors(n1)
+	b := Factors(n2)
 	large := -1
 	l1 := len(a)
 	l2 := len(b)
