@@ -1,2 +1,2 @@
-# mymath
-mymath
+# math
+math
