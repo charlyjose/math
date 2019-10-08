@@ -1,4 +1,4 @@
-package mymath
+package math
 
 // GCD returns the highest Common Factor of a number
 func GCD(n1, n2 int) int {
